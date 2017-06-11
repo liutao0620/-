@@ -16,6 +16,7 @@ class Xml extends Api {
 			'data' => $data
 		);
 
+
 		header('Content-Type:text/xml');
 		$xml = "<?xml version='1.0' encoding='UTF-8'?>\n";
 		$xml .= "<root>";

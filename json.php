@@ -16,7 +16,6 @@ class Json extends Api {
 
 
 
-
 		echo json_encode($result);
 		exit;
 	}
